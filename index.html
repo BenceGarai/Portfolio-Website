@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css" />
@@ -19,10 +20,10 @@
         </ul>
       </div>
     </nav>
-    <nav id="burger-nav">
+    <nav id="hamburger-nav">
       <div class="logo">Bence Garai</div>
-      <div class="burger-menu">
-        <div class="burger-icon" onclick="toggleMenu()">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
           <span></span>
@@ -35,20 +36,20 @@
         </div>
       </div>
     </nav>
-    <hero id="profile">
-      <div class="hero__pic-container">
-        <img src="./assets/profilepic.png" alt="Profile Picture" />
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profilepic.png" alt="John Doe profile picture" />
       </div>
-      <div class="hero__text">
-        <p class="hero__text_p1">Hello, I'm</p>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Bence Garai</h1>
-        <p class="hero__text__p2">Software Developer</p>
+        <p class="section__text__p2">Software Developer</p>
         <div class="btn-container">
           <button
             class="btn btn-color-2"
             onclick="window.open('./assets/resume.pdf')"
           >
-            Download CV
+            CV / Resume
           </button>
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact
@@ -57,27 +58,27 @@
         <div id="socials-container">
           <img
             src="./assets/linkedin.png"
-            alt="LinkedIn Profile"
+            alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/in/bencegarai9/'"
+            onclick="window.open('https://www.linkedin.com/in/bencegarai9/', '_blank')"
           />
           <img
             src="./assets/github.png"
-            alt="GitHub Profile"
+            alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/BenceGarai'"
+            onclick="window.open('https://github.com/BenceGarai')"
           />
         </div>
       </div>
-    </hero>
+    </section>
     <section id="about">
-      <p class="hero__text__p1">Get To Know More</p>
+      <p class="section__text__p1">Get To Know Me More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <div class="hero__pic-container">
+        <div class="section__pic-container">
           <img
             src="./assets/profilepic.png"
-            alt="Profile Picture"
+            alt="Profile picture"
             class="about-pic"
           />
         </div>
@@ -86,40 +87,38 @@
             <div class="details-container">
               <img
                 src="./assets/experience.png"
-                alt="Experience Icon"
+                alt="Experience icon"
                 class="icon"
               />
               <h3>Experience</h3>
-              <p>
-                some years <br />
-                software dev
-              </p>
+              <p>0+ years <br />Software Development</p>
             </div>
             <div class="details-container">
               <img
                 src="./assets/education.png"
-                alt="Education Icon"
+                alt="Education icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Degree</p>
+              <p>Bachelor of Science <br />Computer Science</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil ad
-              suscipit pariatur nesciunt laborum maiores dolor, autem non at
-              iusto praesentium sequi nobis quod, tempora dolorem error omnis
-              ratione perferendis cum? Minima temporibus rem maxime similique?
-              Nemo voluptatibus unde laudantium, necessitatibus esse quidem
-              maiores eius vitae quam, aliquid enim consectetur.
+              Hello! I'm a recent graduate of Western Governors University with
+              a Bachelor of Science in Computer Science, eager to embark on an
+              exciting journey in the world of technology. My education has
+              provided me with a strong foundation in key computer science areas
+              and a diverse skill set in various programming languages and
+              technologies. Now, I'm on the lookout for an entry-level position
+              where I can apply my skills and gain valuable experience.
             </p>
           </div>
         </div>
       </div>
       <img
         src="./assets/arrow.png"
-        alt="Navigation Arrow"
+        alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#experience'"
       />
