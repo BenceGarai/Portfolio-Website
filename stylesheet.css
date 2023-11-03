@@ -36,6 +36,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background-color: #00000007;
 }
 
 .nav-links {
@@ -176,7 +177,7 @@ section {
 }
 
 .profile-pic {
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .section__text {
