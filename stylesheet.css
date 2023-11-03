@@ -300,7 +300,7 @@ section {
   min-width: 400px;
   object-fit: cover;
 }
-
+/*May re-implement in the future*/
 .arrow {
   position: absolute;
   right: -5rem;
